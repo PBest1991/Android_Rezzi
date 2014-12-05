@@ -25,7 +25,8 @@
         android:id="@+id/btnCall"
         android:layout_marginTop="53dp"
         android:layout_below="@+id/etxtPhoneNumber"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="callFunction"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"
